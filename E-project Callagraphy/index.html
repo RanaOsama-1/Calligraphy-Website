@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- fontawosome cdn link -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- animated link -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">  
+</head>
+<body>
+       <!-- navbar start -->
+<nav class="navbar navbar-expand-lg navbar-dark  fixed-top" >
+  <div class="container">
+   <img src="./assets/images/kaleam-logo.svg" alt="" style="width: 5%;">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link active"  href="#">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link "  href="#about us">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"   href="#Satisfaction">Our Satisfaction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link "  href="./gallery/galler.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link "   href="#contact">Contact</a>
+        </li>
+<div class="visitor-counter" id="visitorCounter">
+  
+</div>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- navbar end -->
+<!-- container start -->
+<section class="title">
+  <img src="./assets/images/bg1.jpg!bw700" alt="" style="width: 100%;height: 100%;">
+  <div class="overlay"></div>
+  <div class="description">
+    <h1  class="main-des">Arabic $ Islamic Calligraphy</h1>
+    <p style="color: white;font-size: 20px;font-weight: bold;">We Are Here to Help</p>
+    <p style="color: white;font-family: 'Courier New', Courier, monospace;font-size: 20px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illo magnam ducimus unde?</p>
+    <input type="text" id="search" placeholder="Search...">
+    <button id="searchBtn" >Search</button>
+  </div>
+</section>
+<!-- container end -->
+ <!-- services card -->
+ <div class="container-fluid"  id="webshortcut" >
+     
+  <div class="col-12 text-center">
+      <h1 class="mainheading mt-3" >All Calligraphy Styles</h1>  
+  </div> 
+  <div class="row" id="pro">
+      
+<img src="" alt="">
+
+    
+  </div>
+</div>
+
+<!-- services card end -->
+
+<!-- about us -->
+<div class="container-fluid about " id="about us" >
+  <h1 id="heading5"  class="text-center mb-4">About Us</h1>
+  <div class="row align-items-center">
+      <div class="col-md-6">
+          <img src="./assets/images/1.gif" alt="image" class="custom-image">
+      </div>
+      <div class="col-md-6">
+          <p class="white-bg">Out of love and admiration to the rich and artistic practice of Arabic calligraphy and fonts such as Thuluth, Dewani, and Nasikh, we have introduced “Kaleam ”, the revolutionary platform that allows all those passionate about this art to create personalized fonts and calligraphy arts</p>
+          <p class="white-bg">Through Kaleam , individuals the opportunity to enjoy a personalized experience of developing their own fonts and to collaborate with others through means of social media. Corporates can have distinct identity through creating their own own font..</p>
+   
+      </div>
+
+  </div>
+</div>
+<!-- about us end -->
+ <!-- reviews section -->
+ <div class="container my-5" id="Satisfaction">
+  <h1 class="reviewheading">User Reviews</h1>
+  <form id="reviewForm">
+    <input type="text" id="username" placeholder="Enter your name" required>
+    <textarea id="review" placeholder="Write your review" required></textarea>
+    <button id="btn1" type="submit">Submit Review</button>
+  </form>
+  <div id="reviews">
+  </div>
+</div>
+<!-- reviews section end -->
+<!-- footer start -->
+<footer>
+  <div class="container" id="contact">
+      <div class="row">
+          <div class="col-lg-4 col-md-6 square">
+              <div class="brand">
+                <img src="./assets/images/kaleam-logo.svg" alt="" style="width: 30%;">
+              </div>
+          </div>
+          <div class="col-lg-2 col-md-6 square">
+              <div class="heading">Links</div>
+              <ul class="l-list">
+                <li> <a href="../index.html"> Home</a></li>
+                <li> <a href="#about us"> About</a></li>
+                <li> <a href="#Satisfaction"> Satisfaction</a></li>
+                <li> <a href="./gallery/galler.html"> Gallery</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 square">
+              <div class="heading">Contact</div>
+              <ul class="contact">
+                  <li><i class="fa-solid fa-house"></i> Your Address</li>
+                  <li><i class="fa-solid fa-envelope"></i> Email@gmail.com</li>
+                  <li><i class="fa-solid fa-envelope"></i> +4545 4544545</li>
+              </ul>
+          </div>
+      </div>
+      <ul class="social-media">
+          <li><i class="fa-brands fa-facebook"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+      </ul>
+  </div>
+  <div class="copy">&copy Copyright & Reserved 2023. <a href="#">Calligraphy</a></div>
+ 
+</footer>
+<!-- footer end -->
+<script src="./assets/js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+<script>
+  // cards
+  $(document).ready(function(){
+    $.ajax({
+      url: "assets/json/main.json",
+      type: "get",
+      success: function(objectdata){
+        let x= "" ;
+        $.each(objectdata,function(index,indexObject){
+          x+=`<div class="col-lg-3 col-md-6 col-sm-12 mb-4 " style="padding-bottom:3%;padding-top:3%;" >
+                  <div class="card" >
+                      <img src="${indexObject.images}" class="card-img-top" alt="..." style="height:300px;">
+                      <div class="card-body">
+                          <h5 class="card-title">${indexObject.name}</h5>
+                        <a href="${indexObject.id}.html" class="btn" >More Detail </a>
+                      </div>
+                  </div>
+              </div>`;
+        });
+        $("#pro").html(x);
+      }
+    });
+  });
+  function openNewPage(url) {
+    window.open(url, "_blank");
+  }
+// search content
+  $(document).ready(function(){
+  function loadCards(data) {
+    let x = "";
+    $.each(data, function(index, indexObject){
+      x += `<div class="col-lg-3 col-md-6 col-sm-12 mb-4 " style="padding-bottom:3%;padding-top:3%;">
+              <div class="card">
+                  <img src="${indexObject.images}" class="card-img-top" alt="..." style="width:100%; height:300px;">
+                  <div class="card-body">
+                      <h5 class="card-title">${indexObject.name}</h5>
+                      <a href="${indexObject.id}.html" class="btn">More Detail</a>
+                  </div>
+              </div>
+            </div>`;
+    });
+    $("#pro").html(x);
+  }
+
+  $.ajax({
+    url: "assets/json/main.json",
+    type: "get",
+    success: function(objectdata){
+      loadCards(objectdata);
+
+      $('#searchBtn').click(function() {
+        let searchText = $('#search').val().toLowerCase();
+        let filteredData = objectdata.filter(item => item.name.toLowerCase().includes(searchText));
+        loadCards(filteredData);
+      });
+    }
+  });
+});
+
+// serch content end
+  // visitor counter start
+      function incrementVisitorCount() {
+        if (typeof(Storage) !== "undefined") {
+            var count = localStorage.getItem("visitorCount");
+            count = count ? parseInt(count) + 1 : 1;
+            localStorage.setItem("visitorCount", count);
+            document.getElementById("visitorCounter").innerText = "Visitor Count: " + count;
+        } else {
+            document.getElementById("visitorCounter").innerText = "Sorry, your browser does not support localStorage.";
+        }
+    }
+    incrementVisitorCount();
+  
+</script>
+
+</body>
+</html>

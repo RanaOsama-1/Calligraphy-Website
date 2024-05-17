@@ -1,0 +1,22 @@
+[
+    {
+        "id":"Traditional calligraphy/Traditional",
+        "name": "Traditional calligraphy",
+        "images": "./assets/images/t1.jpg"
+    },
+    {
+        "id":"hand writing/hand",
+        "name": "Hand Lettering Calligraphy",
+        "images": "./assets/images/h1.jpg"
+    },
+    {
+        "id":"Contemporary Calligraphy/Contemporary",
+        "name": "Contemporary Calligraphy",
+        "images": "./assets/images/c1.jpg"
+    },
+    {
+        "id":"modern calligraphy/modern",
+        "name": "Modern Calligraphy",
+        "images": "./assets/images/m2.jpg"
+    }
+]

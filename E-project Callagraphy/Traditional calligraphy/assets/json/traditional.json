@@ -1,0 +1,29 @@
+[
+    {
+        "id":"1",
+        "heading": "Chinese Calligraphy",
+        "paragraph":"“ Chinese calligraphy, also known as Shufa or Brush calligraphy  has a history dating back thousands of years. It is highly regarded as a form of visual art in China and other East Asian countries. Chinese calligraphy emphasizes the balance of strokes, rhythm, and composition, with different scripts such as Seal Script, Clerical Script, Regular Script, Running Script, and Cursive Script.",
+        "images": "./assets/images/ch1.jpg"
+       
+       
+    },
+    {
+        "id":"2",
+        "heading": "Arabic Calligraphy",
+        "paragraph":"“Arabic calligraphy is an integral part of Islamic art and culture. It developed from the Arabic script and has been practiced for centuries across the Islamic world. Arabic calligraphy is known for its intricate geometric patterns, flowing lines, and elaborate designs. Various styles of Arabic calligraphy include Naskh, Thuluth, Diwani, Ruq'ah, and Kufic.",
+        "images": "./images/ch1.jpg"
+        
+    },
+    {
+        "id":"3",
+        "heading": " Japanese Calligraphy (Shodo)",
+        "paragraph":"“Japanese calligraphy, or Shodo is deeply influenced by Zen Buddhism and traditional Japanese aesthetics. It utilizes brushes, ink, and washi paper to create expressive characters known as kanji and kana. Japanese calligraphy emphasizes harmony, balance, and the beauty of imperfection, with styles ranging from the formal Kaisho to the cursive Sosho.",
+        "images": "./assets/images/ch1.jpg"
+    },
+    {
+        "id":"4",
+        "heading": "Western  Calligraphy",
+        "paragraph":"“Western calligraphy has its roots in ancient European writing traditions, including Roman, Celtic, and Gothic scripts. It evolved over time into distinct styles such as Italic, Uncial, Carolingian, Blackletter (also known as Gothic), and Copperplate. Western calligraphy often emphasizes legibility, letterforms, and artistic flourishes ",
+        "images": "./assets/images/ch1.jpg"
+    }
+]
