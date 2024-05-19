@@ -67,7 +67,7 @@
   font-size: 14px; 
 }
 #search{
-  width: 70%;
+  width: 50%;
 }
 #searchBtn {
   background-color: #9B3922;
@@ -200,6 +200,7 @@ footer{
   height: auto;
   background: #282828;
   padding-bottom: 20px;
+  
 }
 
 .square{
@@ -231,7 +232,9 @@ footer{
   text-align: center;
 }
 .l-list{
+  margin-right: 80%;
   padding: 0;
+  list-style: none;
 }
 
 .l-list li a{
@@ -239,6 +242,7 @@ footer{
   text-align: center;
   margin: 5px 0px;
   color: white;
+  text-decoration: none;
 }
 
 .contact{
@@ -262,6 +266,10 @@ footer{
   color: white;
   margin: 5px;
   font-size: 25px;
+}
+.social-media li:hover{
+  color: #9B3922;
+  
 }
 
 .copy{

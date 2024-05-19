@@ -6,8 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const reviews = JSON.parse(localStorage.getItem('reviews')) || [];
   reviews.forEach(review => addReviewToDOM(review));
 });
-
-// Add review to DOM
 function addReviewToDOM(review) {
   const reviewDiv = document.createElement('div');
   reviewDiv.classList.add('review');
@@ -17,8 +15,6 @@ function addReviewToDOM(review) {
   `;
   reviewsContainer.appendChild(reviewDiv);
 }
-
-// Handle form submission
 reviewForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const username = document.getElementById('username').value;
@@ -36,16 +32,11 @@ reviewForm.addEventListener('submit', (e) => {
 
   addReviewToDOM(review);
   saveReview(review);
-
-  // Clear form fields
   document.getElementById('username').value = '';
   document.getElementById('review').value = '';
 });
-
-// Save review to local storage
 function saveReview(review) {
   const reviews = JSON.parse(localStorage.getItem('reviews')) || [];
   reviews.push(review);
   localStorage.setItem('reviews', JSON.stringify(reviews));
 }
-//  for search

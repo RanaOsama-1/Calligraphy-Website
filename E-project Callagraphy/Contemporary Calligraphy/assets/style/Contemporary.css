@@ -125,7 +125,9 @@ footer{
   text-align: center;
 }
 .l-list{
+  margin-right: 80%;
   padding: 0;
+  list-style: none;
 }
 
 .l-list li a{
@@ -133,7 +135,9 @@ footer{
   text-align: center;
   margin: 5px 0px;
   color: white;
+  text-decoration: none;
 }
+
 
 .contact{
   padding: 0;
@@ -157,7 +161,10 @@ footer{
   margin: 5px;
   font-size: 25px;
 }
-
+.social-media li:hover{
+  color: #9B3922;
+  
+}
 .copy{
   text-align: center;
   color: white;
